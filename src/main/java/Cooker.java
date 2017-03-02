@@ -1,7 +1,10 @@
 
-public class Cooker {
+ 
+	// interfaces differ from classes by using the interface keyword in decleration
+public interface Cooker {
+	
 
-	public void cook() {
+	public default void cook() {
 		System.out.println("I cooked it");
 	}
 }
